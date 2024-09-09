@@ -1,11 +1,11 @@
 import { NavigationContainer } from "@react-navigation/native";
-import { createDrawerNavigator } from "@react-navigation/drawer";
+import { createStackNavigator } from "@react-navigation/stack";
 
 import TelaJavaScript from "./componentes/TelaJavaScript";
 import TelaNode from "./componentes/TelaNode";
 import TelaReact from "./componentes/TelaReact";
 
-const Menu = createDrawerNavigator();
+const Menu = createStackNavigator();
 
 export default function App() {
   return (
